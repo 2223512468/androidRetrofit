@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="retrofit Get请求" />
+
+    <Button
+        android:id="@+id/getBtnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="Get请求 map封装参数" />
+
+    <Button
+        android:id="@+id/getBtnUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="Get请求覆盖baseUrl" />
+
+
+    <Button
+        android:id="@+id/getBtnHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="Get请求带请求头" />
+
+    <Button
+        android:id="@+id/postBtnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="POST请求" />
+
+    <Button
+        android:id="@+id/getModelLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="getModel请求" />
+
+    <Button
+        android:id="@+id/getStringLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="getString请求" />
+
+    <Button
+        android:id="@+id/getObserLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="GetObservable请求" />
+
+    <Button
+        android:id="@+id/upFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="upFile请求" />
+
+
+    <Button
+        android:id="@+id/upRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="jsonAndsession" />
+
+
+</LinearLayout>
